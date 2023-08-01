@@ -9,7 +9,7 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
-_G.Key= "..VoidedOnTop.."
+_G.Key= "VoidedOnTopX32"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
