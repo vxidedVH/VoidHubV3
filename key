@@ -1,3 +1,7 @@
 Current Key::
 
 VoidedOnTopX32
+
+Loadstring:
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/vxidedVH/VoidHubV3/main/LOADING')))()
