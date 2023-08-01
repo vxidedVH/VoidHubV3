@@ -27,7 +27,7 @@ end
 
 function INCorrectKeyNotification ()
 OrionLib:MakeNotification({
-	Name = "inCorrect Key",
+	Name = "Incorrect Key",
 	Content = "You have entered the incorrect key.",
 	Image = "rbxassetid://4483345998",
 	Time = 5
