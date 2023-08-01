@@ -1,6 +1,13 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Player = game.Players.LocalPlayer
+local Window = OrionLib:MakeWindow({Name = "VoidHub", HidePremium = true, SaveConfig = true,IntroText ="VH" })
 
-local Window = OrionLib:MakeWindow({Name = "VoidHub", HidePremium = false, SaveConfig = true,IntroText ="VH" })
+OrionLib:MakeNotification({
+	Name = "VoidHub",
+	Content = "Hi! "..Player.Name..". Thanks for using VoidHub, if you enconuter any bugs send them to VoidedScripts#8479 ",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
 
 local Tab = Window:MakeTab({
 	Name = "Main",
@@ -161,3 +168,33 @@ Tab:AddButton({
                 game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
   	end    
 })
+
+
+OrionLib:MakeNotification({
+	Name = "VoidHub",
+	Content = "Your Error code is: "..Player.Name.."3324SUPPORTVH. This code will also be displayed in the menu.",
+	Image = "rbxassetid://4483345998",
+	Time = 30
+})
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Credits",
+
+	PremiumOnly = false
+})
+
+local Player = game.Players.LocalPlayer
+Tab:AddLabel("Credits:")
+Tab:AddLabel("VoidedScripts#8479 -Creating this hub")
+Tab:AddLabel("" ..Player.Name.. "-For using VH")
+
+
+local Tab = Window:MakeTab({
+	Name = "Support",
+	PremiumOnly = false
+})
+Tab:AddLabel("Your Support ID is: " ..Player.Name.. "3324SUPPORTVH")
+
+Tab:AddLabel("Contact on discord: VoidedScripts#8479")
