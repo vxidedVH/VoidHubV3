@@ -9,9 +9,9 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
-_G.Key= "VoidedOnTopX32"
+
 _G.Key= "DiscordBypass!YourWelcome231"
-_G.Key= "nil"
+
 
 _G.KeyInput = "string"
 
