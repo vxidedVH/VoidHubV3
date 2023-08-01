@@ -1,0 +1,163 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "VoidHub", HidePremium = false, SaveConfig = true,IntroText ="VH" })
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Fly Gui",
+	Callback = function()
+      	  loadstring(game:HttpGet('https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt'))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "JP+WS - VoidScripted",
+	Callback = function()
+      	  loadstring(game:HttpGet('https://pastebin.com/raw/zjQKEFzE'))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Other Hubs",
+
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "IceHub",
+	Callback = function()
+      	   loadstring(game:HttpGet(('https://icehub.cf/IceHubLoader'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Universal Butif hub",
+	Callback = function()
+      	 loadstring(game:HttpGet(('https://raw.githubusercontent.com/NEWBUTIF/Universal-Script-Hub/main/Butif%20Hub'),true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "AeroHub",
+	Callback = function()
+      	  loadstring(game:HttpGet(('https://raw.githubusercontent.com/aerocontentdeliverynetwork/3456465f7453x447r76h86856233423645756354b/master/loader.lua'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      	  loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "VHub",
+	Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/V31nc/2642/Created/VHub'),true))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "ScriptHub V2",
+	Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/scripthubekitten/SCRIPTHUBV2/main/SCRIPTHUBV2'),true))()
+  	end    
+})
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Games",
+
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "Bedwars V4pe",
+	Callback = function()
+           loadstring(game:HttpGet(('https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Build A Boat",
+	Callback = function()
+           loadstring(game:HttpGet(('https://raw.githubusercontent.com/antipipka/roblox/main/Build%20A%20Boat%20For%20Treasure.lua'),true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Build A Boat 2",
+	Callback = function()
+          loadstring(game:HttpGet(('https://gamingresources.github.io/BoatBlitz.lua'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fly Race! Auto Farm",
+	Callback = function()
+           loadstring(game:HttpGet(('https://raw.githubusercontent.com/InsurgenceHub/IncurgenceHub.github.io/main/InsurgentHubProtected'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Super Striker League",
+	Callback = function()
+              loadstring(game:HttpGet(('https://pastebin.com/raw/MZtxCQ3L'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "KAT",
+	Callback = function()
+               loadstring(game:HttpGet(('https://raw.githubusercontent.com/AndrewDarkyy/NOWAY/main/darkyyware.lua'),true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "KAT2",
+	Callback = function()
+               loadstring(game:HttpGet(('https://pastebin.com/raw/MHx8q6xP'),true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "MM2",
+	Callback = function()
+               loadstring(game:HttpGet(('https://raw.githubusercontent.com/KidichiHB/Kidachi/main/Scripts/MM2_V2'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Math Wall Simulator Script",
+	Callback = function()
+             loadstring(game:HttpGet(('https://raw.githubusercontent.com/WinterDinder/Math-Wall-Simulator/main/Main'),true))()
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Extras",
+
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "AutoClicker",
+	Callback = function()
+                loadstring(game:HttpGet(('https://pastebin.com/raw/WgkcDYUs'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Rejoin Game",
+	Callback = function()
+                game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
+  	end    
+})
